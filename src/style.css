@@ -1,0 +1,172 @@
+/* HEADER-CARD */
+*{
+  padding: 0;
+  margin: 0;
+}
+.head{
+  background-color:black;
+  height: 800px;
+}
+.head-1{
+  background-color:white;
+  color: black;
+  height: 600px;
+  padding:35px;
+  border-radius:25px;
+  position: relative;
+  top: 70px;
+  width: 1200px;
+  left: 50px;
+}
+.head-1>h1,p{
+  padding: 15px;
+}
+/* COURSE-CARD */
+.course-card{
+  display: flex;
+  gap: 15px;
+}
+.course-card-1{
+  width: 400px;
+  height: 170px;
+  background-color:purple;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+.course-card-1>h1,h4{
+  position: relative;
+  top: 40px;
+  padding: 5px;
+
+}
+.course-card-2{
+  background-color:yellow;
+  width: 400px;
+  height: 170px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+.course-card-2>h1,h4{
+  position: relative;
+  top: 40px;
+  padding: 5px;
+
+}
+.course-card-3{
+  background-color:red;
+  width: 400px;
+  height: 170px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+.course-card-3>h1,h4{
+  position: relative;
+  top: 40px;
+  padding: 5px;
+
+}
+/* TODO-CONTAINER */
+.todo{
+  display: flex;
+  gap:40px;
+  margin-top: 30px;
+  flex-wrap: nowrap;
+}
+/* TODO -1 */
+ .todo-1>form{
+  margin-top: 20px;
+ }
+ form>input{
+  width: 250px;
+  padding: 10px;
+  background-color: white;
+ }
+ form>button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin: 3px;
+ }
+ /* TODO-2 */
+ .todo-2{
+  background-color: plum;
+  height: 180px;
+  border-radius: 15px;
+  color: black;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+@media screen and (max-width:600px)
+{
+   .course-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+    .todo{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .head-1{
+      width: 400px;
+      margin-left:1px;
+      height: 1000px;
+    }
+    .head{
+      background-color: white;
+      position: relative;
+      right: 30px;
+      bottom: 60px;
+    }
+    .todo-1{
+      position: relative;
+      left: 20px;
+    }
+}
+
+.login{
+  background-color: black;
+  height: 1000px;
+}
+.login-1{
+  background-color: white;
+  height: 300px;
+  width:800px;
+ position: relative;
+ left: 10%;
+ top: 10%;
+ color: black;
+ padding:80px;
+}
+.login-1>p,form>input,button{
+  padding: 10px;
+  margin: 5px;
+}
+.login-1>form>button{
+   background-color: blueviolet;
+   color: black;
+   border: none;
+}
+@media screen and (max-width:600px)
+{
+  .login-1{
+    width: 300px;
+    position: relative;
+    right: 100px;
+    padding:30px;
+    height: 350px;
+  }
+}
+
+
+  
+
+ 
+
+ 
